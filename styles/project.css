@@ -1,0 +1,199 @@
+.project-heading {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.project-card {
+    flex: 0 0 50%;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image1 img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.project-title1 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 2;
+}
+
+.description1 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 500px;
+    flex: 3;
+}
+
+.view-details1 button {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 203, 0);
+    border-radius: 20px;
+    border: none;
+    flex: 4;
+    margin-left: 5px;
+}
+
+.project-card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image2 img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.project-title2 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 2;
+}
+
+.description2 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 500px;
+    flex: 3;
+}
+
+.view-details2 button {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 203, 0);
+    border-radius: 20px;
+    border: none;
+    flex: 4;
+    margin-left: 5px;
+}
+
+.project-card3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image3 img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.project-title3 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 2;
+}
+
+.description3 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 500px;
+    flex: 3;
+}
+
+.view-details3 button {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 203, 0);
+    border-radius: 20px;
+    border: none;
+    flex: 4;
+    margin-left: 5px;
+}
+
+.project-card4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image4 img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.project-title4 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 2;
+}
+
+.description4 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 500px;
+    flex: 3;
+}
+
+.view-details4 button {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 203, 0);
+    border-radius: 20px;
+    border: none;
+    flex: 4;
+    margin-left: 5px;
+}
