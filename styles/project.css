@@ -1,18 +1,21 @@
 .project-heading {
-    color: white;
+    color: rgb(111, 78, 55);
+    margin-top: 50px;
+    margin-left: 80px;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
-    margin-left: 150px;
-    margin-top: 100px;
+    gap: 60px;
+    padding: 100px, 250px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
 }
 
 .project-card {
-    flex: 0 0 50%;
-    width: 800px;
+    flex: 1 1 calc(33.33% - 40px);
     box-sizing: border-box;
     padding: 20px;
     border-radius: 10px;
@@ -21,6 +24,9 @@
 .project-card1 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    background-color: rgb(111, 78, 55);
+    border-radius: 10px;
 }
 
 .image1 img {
@@ -31,7 +37,7 @@
 }
 
 .project-title1 {
-    color: white;
+    color: rgb(254, 216, 177);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -40,23 +46,20 @@
 }
 
 .description1 {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: rgb(254, 216, 177);
+    padding: 5px;
     text-align: left;
-    width: 500px;
+    width: 480px;
     flex: 3;
 }
 
 .view-details1 button {
-    color: white;
+    color: rgb(111, 78, 55);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(8, 203, 0);
+    background-color: rgb(236, 177, 118);
     border-radius: 20px;
     border: none;
     flex: 4;
@@ -66,6 +69,9 @@
 .project-card2 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    background-color: rgb(111, 78, 55);
+    border-radius: 10px;
 }
 
 .image2 img {
@@ -76,7 +82,7 @@
 }
 
 .project-title2 {
-    color: white;
+    color: rgb(254, 216, 177);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -85,23 +91,20 @@
 }
 
 .description2 {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: rgb(254, 216, 177);
+    padding: 5px;
     text-align: left;
-    width: 500px;
+    width: 480px;
     flex: 3;
 }
 
 .view-details2 button {
-    color: white;
+    color: rgb(111, 78, 55);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(8, 203, 0);
+    background-color: rgb(236, 177, 118);
     border-radius: 20px;
     border: none;
     flex: 4;
@@ -111,6 +114,9 @@
 .project-card3 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    background-color: rgb(111, 78, 55);
+    border-radius: 10px;
 }
 
 .image3 img {
@@ -121,7 +127,7 @@
 }
 
 .project-title3 {
-    color: white;
+    color: rgb(254, 216, 177);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -130,23 +136,20 @@
 }
 
 .description3 {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: rgb(254, 216, 177);
+    padding: 5px;
     text-align: left;
-    width: 500px;
+    width: 480px;
     flex: 3;
 }
 
 .view-details3 button {
-    color: white;
+    color: rgb(111, 78, 55);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(8, 203, 0);
+    background-color: rgb(236, 177, 118);
     border-radius: 20px;
     border: none;
     flex: 4;
@@ -156,6 +159,9 @@
 .project-card4 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    background-color: rgb(111, 78, 55);
+    border-radius: 10px;
 }
 
 .image4 img {
@@ -166,7 +172,7 @@
 }
 
 .project-title4 {
-    color: white;
+    color: rgb(254, 216, 177);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -175,23 +181,20 @@
 }
 
 .description4 {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: rgb(254, 216, 177);
+    padding: 5px;
     text-align: left;
-    width: 500px;
+    width: 480px;
     flex: 3;
 }
 
 .view-details4 button {
-    color: white;
+    color: rgb(111, 78, 55);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(8, 203, 0);
+    background-color: rgb(236, 177, 118);
     border-radius: 20px;
     border: none;
     flex: 4;
