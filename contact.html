@@ -5,66 +5,88 @@
         <link rel="stylesheet" href="styles/contact.css" />
     </head>
     <body>
-        <div class="contact-info">
-            <p>
-                Get In Touch
-            </p><br><br>
-            <p>
-                Contact Informations
-            </p>
-            <div class="logo-with-info">
-                <div class="gmail">
-                    <img>
-                    <p>
-                        atomicaconnect@gmail.com
+        <div class="contact-page">
+            <div class="left">
+                <div class="contact-info">
+                    <h2 class="contact-heading">Get In Touch</h2>
+                    <br /><br />
+                    <h3 class="contact-side-heading">Contact Informations</h3>
+                    <br />
+                    <p class="contact-description">
+                        Have a project in mind? Reach out through the form or
+                        directly via email.
                     </p>
+                    <div class="logo-with-info">
+                        <div class="gmail">
+                            <img src="icons/gmail-icon.svg" />
+                            <p>atomicaconnect@gmail.com</p>
+                        </div>
+                        <div class="location">
+                            <img src="icons/location.svg" />
+                            <p>Chennai, India</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="location">
-                    <img>
-                    <p>
-                        Chennai, India
-                    </p>
+                <div class="center-icons">
+                    <a
+                        href="https://github.com/Atomica-A"
+                        class="icon-btn"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img src="icons/github-icon.svg" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/tamilselvia/"
+                        class="icon-btn"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img src="icons/linkedin-icon.svg" />
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="center-icons">
-            <a href="https://github.com/Atomica-A" class="icon-btn">
-                <img src="icons/github-icon.svg">
-            <a href="https://www.linkedin.com/in/tamilselvia/" class="icon-btn">
-                <img src="icons/linkedin-icon.svg">
-        </div>
-        <div class="form">
-            <div class="name">
-                <p>
-                    Your Name
-                </p>
-                <textarea class="name-box" rows="1">
-                    John Doe
-                </textarea>
-            </div>
-            <div class="email">
-                <p>
-                    Your Email
-                </p>
-                <textarea class="email-box" rows="1">
-                    john@example.com
-                </textarea>
-            </div>
-            <div class="name">
-                <p>
-                    Your Name
-                </p>
-                <textarea class="name-box" rows="1">
-                    John Doe
-                </textarea>
-            </div>
-            <div class="name">
-                <p>
-                    Your Name
-                </p>
-                <textarea class="name-box" rows="1">
-                    John Doe
-                </textarea>
+            <div class="form">
+                <div class="name">
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        class="name-box"
+                        placeholder="John Doe"
+                    />
+                </div>
+                <div class="email">
+                    <label for="email">Your Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        class="email-box"
+                        placeholder="john@example.com"
+                    />
+                </div>
+                <div class="subject">
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="" disabled selected>
+                            --Select a subject--
+                        </option>
+                        <option>Project Collaboration</option>
+                        <option>Freelance Work</option>
+                        <option>General Query</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Hello Atomica..."
+                    ></textarea>
+                </div>
+                <div class="send-btn">
+                    <button>Send Message</button>
+                </div>
             </div>
         </div>
     </body>
