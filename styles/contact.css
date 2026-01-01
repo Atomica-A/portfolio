@@ -1,3 +1,71 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(111, 78, 55);
+    width: 100%;
+    height: 100px;
+    color: rgb(254, 216, 177);
+}
+
+.name-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 60px;
+}
+.name-section button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    font-size: 24px;
+    font-weight: 700;
+    font-family: inherit;
+
+    color: inherit;
+    cursor: pointer;
+}
+
+.first-name {
+    color: rgb(254, 216, 177);
+    display: inline-block;
+}
+
+.last-name {
+    color: rgb(236, 177, 118);
+    margin-left: -6px;
+}
+
+.name-section button:focus-visible {
+    outline: 2px solid rgb(236, 177, 118);
+    outline-offset: 4px;
+}
+
+.header-topics {
+    display: flex;
+    align-items: center;
+}
+
+.header-topics button {
+    background-color: transparent;
+    color: rgb(254, 216, 177);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px;
+    margin-right: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.resume-btn {
+    text-decoration: none;
+}
+
 .contact-page {
     display: flex;
     flex-direction: row;
@@ -65,10 +133,8 @@
     width: 30px;
     padding: 8px;
     margin-right: 20px;
-    border-radius: 80px;
+    border-radius: 10px;
     background-color: rgb(111, 78, 55);
-    border-width: 6px;
-    border-color: rgb(190, 150, 120);
 }
 
 .form {
@@ -76,6 +142,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border: 1px solid rgb(111, 78, 55);
+    box-shadow: 0 0 0 2px rgba(111, 78, 55, 0.3);
 }
 
 .name {
